@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    transition: all .2s ease-in-out;
+}
+.main-section-banner {
+    background-image: url("https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.categories {
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 2500px) {
+    header {
+        width: 100%;
+    }
+    .searchh {
+        width: 500px;
+    }
+    .logo img {
+        height: 4rem;
+        width: 7rem;
+    }
+    .sidebar-main-category {
+        margin-bottom: 2rem;
+    }
+
+    .icon-desktop, .icon-gift, .icon-mobile, .icon-book, .icon-camera, .icon-home, .icon-music, .icon-light {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .main-section-products {
+        transition: all .2s ease-in-out;
+    }
+    .main-product {
+        margin-right: 8rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+@media (max-width: 608px) {
+    header {
+        width: 100%;
+    }
+    .searchh {
+        width: 120px; 
+        height: 2rem;
+        margin-left: 5px;      
+    }
+    .searchh::placeholder{
+        font-size: 10px;
+    }
+    .categoriess {
+        display: none;
+    }
+    .search-icon {
+        width: 15px;
+        height: 2rem;
+        margin-right: 10px;
+    }
+    .heart {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 10px;
+    }
+    .notify {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .cart-ic {
+        margin-right: 10px;
+    }
+    .cart-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+    .jdent {
+        transform: translateX(15px);
+    }
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .logo img{
+        height: 2rem;
+        width: 3rem;
+    }
+
+    
+
+    .main-sectionn {
+        padding: 0;
+    }
+    .main-sectionn h1 {
+        padding-left: 1rem;
+    }
+
+    .popular-categories {
+        font-size: 1rem;
+    }
+    .deal {
+        font-size: 1rem;
+    }
+    .main-product {
+        margin-left: 0;
+        margin-right: .8rem !important;
+    }
+    .product-image {
+        width: 5rem;
+        height: 5rem;
+    }
+    .product-name {
+        font-size: .5rem;
+        width: 5rem;
+    }
+    .product-make {
+        font-size: .8rem;
+    }
+    .product-price {
+        font-size: 1rem;
+    }
+
+
+
+
+    .table-titles {
+        font-size: .6rem;
+    }
+    .products {
+        padding-left: 1rem;
+    }
+    .count, .cost {
+      width: 5rem;
+    }
+    .table-titles span {
+        width: 20px;
+    }
+    .cart-items {
+        margin-left: 5px;
+    }
+    .cart-item-image {
+        width: 5rem;
+        height: 5rem;
+        padding: 0 !important;
+    }
+    .cart-item-title {
+        font-size: .5rem;
+    }
+    .cart-item-total-cost {
+        font-size: .8rem;
+        width: 5rem;
+    }
+    .cart-item-counter {
+        width: 5rem;
+    }
+
+    .complete-order {
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+    .total-cost {
+        margin-left: 14px;
+    }
+    .total-cost-number {
+        font-size: 1.2rem;
+    }
+    
+    
+    
+}
+
+@media (max-width: 1250px) {
+    .sidebar-main-category svg {
+        width: 1rem;
+        height: 1rem;
+    }
+    .sidebar-main-category h1 {
+        font-size: 14px;
+    }
+    .sidebar-main-category span {
+        width: 1rem;
+    }
+    .icon-desktop, .icon-gift, .icon-mobile, .icon-book, .icon-camera, .icon-home, .icon-music, .icon-light {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .main-section {
+        padding-left: 3rem;
+    }
+    .main-section-banner {
+        margin-right: 2rem;
+    }
+    .icon-desktop, .icon-gift, .icon-mobile, .icon-book, .icon-camera, .icon-home, .icon-music, .icon-light {
+        margin-right: 1rem;
+    }
+
+    .main-product {
+        margin-right: 1.8rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-product {
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+    }
+}
